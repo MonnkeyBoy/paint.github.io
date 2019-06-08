@@ -24,6 +24,6 @@ function draw(e)
 		context.stroke();
 	}
 }
-function changeColor(size){ context}
+function changeBrushSize(size){context.lineWidth = size; }
 function changeColor(color) {context.strokeStyle = color; }
 function clearCanvas(){ context.clearRect(0, 0, canvas.width, canvas.height);}
